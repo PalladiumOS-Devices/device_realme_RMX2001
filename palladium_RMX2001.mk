@@ -31,10 +31,10 @@ endif
 
 # True - OnePlus Launcher as default launcher
 # Remove - Lawnchair as default launcher
-WITH_OPAPPS=true
+# WITH_OPAPPS=true
 
 # Palladium props
-PRODUCT_PRODUCT_PROPERTIES += \
+# PRODUCT_PRODUCT_PROPERTIES += \
         ro.palladiumdevice.maintainer=officialputuid \
         ro.palladiumdevice.cpu=MediaTek Helio G90T \
         ro.palladiumdevice.display=6.5 \
@@ -50,10 +50,10 @@ PRODUCT_MODEL := Realme G90T Series
 PRODUCT_MANUFACTURER := realme
 
 # Build info
-BUILD_FINGERPRINT := "realme/RMX2001/RMX2001L1:10/QP1A.190711.020/1594211000:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:12/SPB5.210812.002/7671067:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=RMX2001 \
     PRODUCT_NAME=RMX2001 \
-    PRIVATE_BUILD_DESC="full_oppo6785-user 10 QP1A.190711.020 0b36b6c4f9b3bf3b release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 12 SPB5.210812.002 7671067 release-key"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
